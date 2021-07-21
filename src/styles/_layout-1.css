@@ -1,0 +1,30 @@
+/* Layout-1 */
+/* Simple flex based layout for a classic header - main - footer page, where the main part fills the avaiable space */
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+header {
+  text-align: center;
+  color: var(--header-font-color);
+  background-color: var(--header-bg-color);
+}
+
+main {
+  background-color: wheat;
+  flex: 1 1 auto;
+  background-color: #ccc;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: teal;
+  height: 3rem;
+  margin-top: auto;
+}
