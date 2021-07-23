@@ -24,7 +24,6 @@ function App() {
           </NavLink>
         </nav>
       </header>
-      <div class="left-sidebar">Left Sidebar</div>
       <main>
         <Switch>
           <Route exact path="/">
@@ -41,7 +40,6 @@ function App() {
           </Route>
         </Switch>
       </main>
-      <div class="right-sidebar">Right Sidebar</div>
       <footer>Lala</footer>
     </div>
   );
